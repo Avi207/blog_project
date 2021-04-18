@@ -1,0 +1,31 @@
+{% extends "layout.html" %} {% block content %}
+<!-- Card -->
+<div class="card testimonial-card purple-gradient">
+
+    <!-- Background color -->
+    <div class="card-up indigo lighten-1 morpheus-den-gradient"></div>
+
+    <!-- Avatar -->
+    <div class="avatar mx-auto white ">
+        <img src="{{url_for('static',filename='profile_pics/avi.jpg')}}" class="rounded-circle" alt="woman avatar">
+    </div>
+
+    <!-- Content -->
+    <div class="card-body mean-fruit-gradient">
+        <!-- Name -->
+        <h4 class="card-title">
+            <center><em>AVINASH KUMAR</em></center>
+        </h4>
+        <hr class="danger-color">
+        <!-- position -->
+        <h4 class="card-title">
+            <center>FULL STACK DEVELOPER</center>
+        </h4>
+        <hr class="danger-color">
+        <!-- Quotation -->
+        <p>I am currently pursuing my B.Tech degree from National Institute of Technology, Nagaland. </p>
+    </div>
+
+</div>
+<!-- Card -->
+{% endblock content %}
